@@ -1,0 +1,537 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: inherit;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+#header-nav {
+    display: flex;
+    padding: 4px;
+    justify-content: space-around;
+}
+
+#header-nav img {
+    padding: 6px;
+}
+
+#logo-text {
+    font-size: 24px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9faf8;
+}
+
+.navlinks ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.navlinks ul li {
+    padding: 20px;
+    margin: 2px;
+    list-style: none;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 5px;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.navlinks li a:hover {
+    background-color: grey;
+    border-radius: 9px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+}
+
+.content {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    padding: 28px;
+    width: 268px;
+    text-align: left;
+    /* border: 2px solid white; */
+}
+
+#home img {
+    width: 455px;
+    height: auto;
+    padding-top: 34px;
+}
+
+.h-primary {
+    font-size: 48px;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.btn button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: normal;
+    margin-top: 6px;
+}
+
+.btn button:hover {
+    cursor: pointer;
+}
+
+#info-tours h2 {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.h-secondary {
+    font-size: 36px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    color: #1f2937;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.subtext {
+    font-size: 18px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+.subtext2 {
+    font-size: 18px;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    color: #1f2937;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.box-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 23px;
+    width: 250px;
+    align-self: baseline;
+}
+
+.box-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 13px;
+}
+
+.quotes-section {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-family: 'Roboto-LightItalic';
+    font-style: italic;
+    color: #1f2937;
+    padding: 175px;
+}
+
+#call-section {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 200px 50px 200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+}
+
+.text {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 8px;
+    color: #e5e7eb;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.package-item {
+    display: flex;
+    padding: 10px;
+    padding-left: 34px;
+    margin: 15px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pack-item img {
+    width: 455px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.pack-item {
+    display: flex;
+    align-items: center;
+}
+
+.detail-section {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+}
+
+.detail-section h3 {
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+.detail-section ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.detail-section li {
+    list-style: none;
+    padding: 4px;
+}
+.pack-text {
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 18px;
+    font-family: 'Roboto-Regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 6px;
+}
+
+.package-item .a1 {
+    border: 2px solid brown;
+    background: url('../images/pack-img/indonesia.jpeg')no-repeat center center/cover;
+    width: 455px;
+    height: 350px;
+}
+
+#contact {
+    padding: 10px;
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'Roboto-Bold', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../images/contact.jpeg') no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+
+#contact-box form {
+    width: 55%;
+    line-height: 1.5rem;
+}
+
+#contact-box input,
+#contact-box label,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    font-family: 'Roboto-Bold', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+#contact-box button {
+    width: 102%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.bg-box {
+    display: flex;
+    padding: 23px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-around;
+    border-radius: 9px;
+    height: auto;
+    font-family: 'Roboto-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    color: #0e131a;
+}
+
+#details-table::before {
+    content: "";
+    background: url('../images/background/builds.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#para {
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#info h1 {
+    font-family: 'Roboto-Bold', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    width: 100%;
+    color: #1f2937;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: rgb(144, 107, 165);
+}
+
+th {
+    background-color: #25132f;
+    color: white;
+  }
+
+.box-table ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-table li{
+    list-style: none;
+    padding: 20px;
+}
+
+.icon img{
+    width: 80px;
+    height: 80px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto-Regular',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* packages page styling style1 */
+.pack-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:25px;
+    margin: 25px;
+}
+.box{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.box a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 25px;
+    color: #f2f6ed;
+    padding: 10px;
+}
+
+.item1{
+    flex: 2 1 600px;
+    margin: 10px;
+}
+
+.item1 a {
+    background: url('../images/pack-img/paris.jpeg') no-repeat center center/cover;
+    height: 375px;
+    width: 600px;
+    text-align:right;
+    border-radius: 15px;
+}
+.item2{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+.item2 a {
+    background: url('../images/pack-img/indonesia.jpeg') no-repeat center center/cover;
+    height: 375px;
+    width: 400px;
+    text-align:right;
+    border-radius: 15px;
+}
+.item3{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+.item3 a {
+    background: url('../images/pack-img/thailand.jpeg') no-repeat center center/cover;
+    height: 375px;
+    width: 400px;
+    text-align:end;
+    border-radius: 15px;
+}
+.item4{
+    flex: 2 1 600px;
+    margin: 10px;
+}
+.item4 a {
+    background: url('../images/pack-img/Indian-tajmahal.jpeg') no-repeat center center/cover;
+    height: 375px;
+    width: 600px;
+    text-align:right;
+    border-radius: 15px;
+}
+
+/* Booking form styling */
+.smart-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #e5e7eb;
+}
+.form-body{
+    background-color: #bdc6d9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+}
+.form-group{
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto-Regular',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-group label, .form-group input, .form-group textarea{
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.form-wrap{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-footer button{
+    margin: 20px;
+    width: 50%;   
+}
+.form-footer button:hover{
+    background-color: #69a9d7;
+}
+.form-footer .cancle:hover{
+    background-color: red;
+}
+.button{
+    background-color: #3882f6;
+    padding: 10px;
+    font-family: 'Roboto-Regular',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
