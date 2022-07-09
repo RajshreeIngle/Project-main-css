@@ -30,6 +30,7 @@ html{
     color: #e5e7eb;
 }
 
+/* Header styling */
 #header-nav {
     display: flex;
     padding: 4px;
@@ -64,6 +65,7 @@ html{
     padding: 5px;
     font-size: 18px;
     font-style: normal;
+    font-family: 'Roboto-Regular',sans-serif;
 }
 
 .navlinks li a:hover {
@@ -71,23 +73,20 @@ html{
     border-radius: 9px;
 }
 
+/* Home-section styling */
 #home {
     display: flex;
     justify-content: space-evenly;
     height: 400px;
     flex-wrap: wrap;
-    /* border: 2px solid white; */
 }
 
 .content {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     flex-direction: column;
     padding: 28px;
     width: 268px;
     text-align: left;
-    /* border: 2px solid white; */
 }
 
 #home img {
@@ -147,6 +146,7 @@ html{
     padding-top: 4px;
 }
 
+/* Info-section styling */
 .box-info-section {
     display: flex;
     justify-content: center;
